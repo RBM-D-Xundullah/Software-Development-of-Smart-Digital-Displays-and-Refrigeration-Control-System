@@ -1,0 +1,490 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F15344 ]
+[d frameptr 6 ]
+"83 E:\W_WORKSPACE\W_PROGRAMMING\WBCXCV101_PROGRAM_101.X\mcc_generated_files/adc.c
+[e E6747 . `uc
+A_FS 5
+A_KNOB 14
+channel_AVSS 59
+channel_Temp 60
+channel_DAC1 61
+channel_FVR_BUF1 62
+channel_FVR_BUF2 63
+]
+"136 E:\W_WORKSPACE\W_PROGRAMMING\WBCXCV101_PROGRAM_101.X\main.c
+[e E6766 . `uc
+A_FS 5
+A_KNOB 14
+channel_AVSS 59
+channel_Temp 60
+channel_DAC1 61
+channel_FVR_BUF1 62
+channel_FVR_BUF2 63
+]
+"10 C:\Program Files2\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 C:\Program Files2\Microchip\xc8\v2.10\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"4 C:\Program Files2\Microchip\xc8\v2.10\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"104 E:\W_WORKSPACE\W_PROGRAMMING\WBCXCV101_PROGRAM_101.X\main.c
+[v _v_1s_service_routine v_1s_service_routine `(v  1 e 1 0 ]
+"132
+[v _u16_get_adc_value u16_get_adc_value `(us  1 e 2 0 ]
+"153
+[v _v_get_slope_intercept v_get_slope_intercept `(v  1 e 1 0 ]
+"198
+[v _main main `(v  1 e 1 0 ]
+"65 E:\W_WORKSPACE\W_PROGRAMMING\WBCXCV101_PROGRAM_101.X\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+"110
+[v _ADC_GetConversion ADC_GetConversion `(us  1 e 2 0 ]
+"66 E:\W_WORKSPACE\W_PROGRAMMING\WBCXCV101_PROGRAM_101.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+"113
+[v _EUSART1_Read EUSART1_Read `(uc  1 e 1 0 ]
+"132
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+"153
+[v _EUSART1_DefaultFramingErrorHandler EUSART1_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"155
+[v _EUSART1_DefaultOverrunErrorHandler EUSART1_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"163
+[v _EUSART1_DefaultErrorHandler EUSART1_DefaultErrorHandler `(v  1 e 1 0 ]
+"166
+[v _EUSART1_SetFramingErrorHandler EUSART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+"170
+[v _EUSART1_SetOverrunErrorHandler EUSART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"174
+[v _EUSART1_SetErrorHandler EUSART1_SetErrorHandler `(v  1 e 1 0 ]
+"52 E:\W_WORKSPACE\W_PROGRAMMING\WBCXCV101_PROGRAM_101.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"50 E:\W_WORKSPACE\W_PROGRAMMING\WBCXCV101_PROGRAM_101.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"60
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"76
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"55 E:\W_WORKSPACE\W_PROGRAMMING\WBCXCV101_PROGRAM_101.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"64 E:\W_WORKSPACE\W_PROGRAMMING\WBCXCV101_PROGRAM_101.X\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+"127
+[v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+"164
+[v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
+"178
+[v _TMR1_SetInterruptHandler TMR1_SetInterruptHandler `(v  1 e 1 0 ]
+"182
+[v _TMR1_DefaultInterruptHandler TMR1_DefaultInterruptHandler `(v  1 e 1 0 ]
+[s S428 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"426 C:\Program Files2\Microchip\xc8\v2.10\pic\include\pic16f15344.h
+[u S433 . 1 `S428 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES433  1 e 1 @11 ]
+"597
+[v _TRISA TRISA `VEuc  1 e 1 @18 ]
+"642
+[v _TRISB TRISB `VEuc  1 e 1 @19 ]
+"681
+[v _TRISC TRISC `VEuc  1 e 1 @20 ]
+"743
+[v _LATA LATA `VEuc  1 e 1 @24 ]
+[s S557 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+]
+"758
+[u S564 . 1 `S557 1 . 1 0 ]
+[v _LATAbits LATAbits `VES564  1 e 1 @24 ]
+"788
+[v _LATB LATB `VEuc  1 e 1 @25 ]
+[s S522 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"802
+[u S528 . 1 `S522 1 . 1 0 ]
+[v _LATBbits LATBbits `VES528  1 e 1 @25 ]
+"827
+[v _LATC LATC `VEuc  1 e 1 @26 ]
+"896
+[v _ADRESL ADRESL `VEuc  1 e 1 @155 ]
+"966
+[v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
+"1036
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @157 ]
+[s S204 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GOnDONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+`uc 1 CHS5 1 0 :1:7 
+]
+"1057
+[s S213 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 CHS 1 0 :6:2 
+]
+[u S216 . 1 `S204 1 . 1 0 `S213 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES216  1 e 1 @157 ]
+"1107
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @158 ]
+"1225
+[v _RC1REG RC1REG `VEuc  1 e 1 @281 ]
+"1279
+[v _TX1REG TX1REG `VEuc  1 e 1 @282 ]
+"1340
+[v _SP1BRGL SP1BRGL `VEuc  1 e 1 @283 ]
+"1410
+[v _SP1BRGH SP1BRGH `VEuc  1 e 1 @284 ]
+"1464
+[v _RC1STA RC1STA `VEuc  1 e 1 @285 ]
+[s S343 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"1490
+[u S352 . 1 `S343 1 . 1 0 ]
+[v _RC1STAbits RC1STAbits `VES352  1 e 1 @285 ]
+"1644
+[v _TX1STA TX1STA `VEuc  1 e 1 @286 ]
+[s S322 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"1670
+[u S331 . 1 `S322 1 . 1 0 ]
+[v _TX1STAbits TX1STAbits `VES331  1 e 1 @286 ]
+"1824
+[v _BAUD1CON BAUD1CON `VEuc  1 e 1 @287 ]
+"3020
+[v _TMR1L TMR1L `VEuc  1 e 1 @524 ]
+"3190
+[v _TMR1H TMR1H `VEuc  1 e 1 @525 ]
+"3310
+[v _T1CON T1CON `VEuc  1 e 1 @526 ]
+[s S57 . 1 `uc 1 ON 1 0 :1:0 
+`uc 1 RD16 1 0 :1:1 
+`uc 1 nSYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CKPS 1 0 :2:4 
+]
+"3341
+[s S63 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 T1RD16 1 0 :1:1 
+`uc 1 nT1SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+]
+[s S70 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+]
+[s S74 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RD161 1 0 :1:1 
+]
+[u S77 . 1 `S57 1 . 1 0 `S63 1 . 1 0 `S70 1 . 1 0 `S74 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES77  1 e 1 @526 ]
+"3406
+[v _T1GCON T1GCON `VEuc  1 e 1 @527 ]
+[s S103 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 GVAL 1 0 :1:2 
+`uc 1 GGO_nDONE 1 0 :1:3 
+`uc 1 GSPM 1 0 :1:4 
+`uc 1 GTM 1 0 :1:5 
+`uc 1 GPOL 1 0 :1:6 
+`uc 1 GE 1 0 :1:7 
+]
+"3440
+[s S111 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T1GVAL 1 0 :1:2 
+`uc 1 T1GGO_nDONE 1 0 :1:3 
+`uc 1 T1GSPM 1 0 :1:4 
+`uc 1 T1GTM 1 0 :1:5 
+`uc 1 T1GPOL 1 0 :1:6 
+`uc 1 T1GE 1 0 :1:7 
+]
+[s S119 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 T1GGO 1 0 :1:3 
+]
+[u S122 . 1 `S103 1 . 1 0 `S111 1 . 1 0 `S119 1 . 1 0 ]
+[v _T1GCONbits T1GCONbits `VES122  1 e 1 @527 ]
+"3602
+[v _T1GATE T1GATE `VEuc  1 e 1 @528 ]
+"3768
+[v _T1CLK T1CLK `VEuc  1 e 1 @529 ]
+[s S303 . 1 `uc 1 SSP1IF 1 0 :1:0 
+`uc 1 BCL1IF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 TX2IF 1 0 :1:6 
+`uc 1 RC2IF 1 0 :1:7 
+]
+"8060
+[u S311 . 1 `S303 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES311  1 e 1 @1807 ]
+[s S28 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+]
+"8106
+[u S31 . 1 `S28 1 . 1 0 ]
+[v _PIR4bits PIR4bits `VES31  1 e 1 @1808 ]
+[s S37 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+]
+"8395
+[u S40 . 1 `S37 1 . 1 0 ]
+[v _PIE4bits PIE4bits `VES40  1 e 1 @1818 ]
+"8523
+[v _PMD0 PMD0 `VEuc  1 e 1 @1942 ]
+"8568
+[v _PMD1 PMD1 `VEuc  1 e 1 @1943 ]
+"8616
+[v _PMD2 PMD2 `VEuc  1 e 1 @1944 ]
+"8661
+[v _PMD3 PMD3 `VEuc  1 e 1 @1945 ]
+"8711
+[v _PMD4 PMD4 `VEuc  1 e 1 @1946 ]
+"8751
+[v _PMD5 PMD5 `VEuc  1 e 1 @1947 ]
+"9813
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2189 ]
+"9953
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2191 ]
+"9987
+[v _OSCSTAT OSCSTAT `VEuc  1 e 1 @2192 ]
+"10039
+[v _OSCEN OSCEN `VEuc  1 e 1 @2193 ]
+"10085
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2194 ]
+"10143
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2195 ]
+"16944
+[v _RX1DTPPS RX1DTPPS `VEuc  1 e 1 @7883 ]
+"17440
+[v _RB4PPS RB4PPS `VEuc  1 e 1 @7964 ]
+"17968
+[v _ANSELA ANSELA `VEuc  1 e 1 @7992 ]
+"18013
+[v _WPUA WPUA `VEuc  1 e 1 @7993 ]
+"18063
+[v _ODCONA ODCONA `VEuc  1 e 1 @7994 ]
+"18108
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @7995 ]
+"18153
+[v _INLVLA INLVLA `VEuc  1 e 1 @7996 ]
+"18353
+[v _ANSELB ANSELB `VEuc  1 e 1 @8003 ]
+"18392
+[v _WPUB WPUB `VEuc  1 e 1 @8004 ]
+"18431
+[v _ODCONB ODCONB `VEuc  1 e 1 @8005 ]
+"18470
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @8006 ]
+"18509
+[v _INLVLB INLVLB `VEuc  1 e 1 @8007 ]
+"18665
+[v _ANSELC ANSELC `VEuc  1 e 1 @8014 ]
+"18727
+[v _WPUC WPUC `VEuc  1 e 1 @8015 ]
+"18789
+[v _ODCONC ODCONC `VEuc  1 e 1 @8016 ]
+"18851
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @8017 ]
+"18913
+[v _INLVLC INLVLC `VEuc  1 e 1 @8018 ]
+"84 E:\W_WORKSPACE\W_PROGRAMMING\WBCXCV101_PROGRAM_101.X\main.c
+[v _u8_CompressorStatus u8_CompressorStatus `uc  1 e 1 0 ]
+"85
+[v _u16_CompressorStart_CountDown u16_CompressorStart_CountDown `us  1 e 2 0 ]
+[v _u16_CompressorStop_CountDown u16_CompressorStop_CountDown `us  1 e 2 0 ]
+"86
+[v _u16_Error_CompressorON_Duration u16_Error_CompressorON_Duration `us  1 e 2 0 ]
+[v _u16_Error_CompressorOFF_Duration u16_Error_CompressorOFF_Duration `us  1 e 2 0 ]
+"87
+[v _i16_CompressorStart_Temp i16_CompressorStart_Temp `s  1 e 2 0 ]
+[v _i16_CompressorStop_Temp i16_CompressorStop_Temp `s  1 e 2 0 ]
+"89
+[v _u8_CabinetSensor_Error u8_CabinetSensor_Error `uc  1 e 1 0 ]
+"90
+[v _u16_Knob_Res u16_Knob_Res `us  1 e 2 0 ]
+[v _u16_ADCsample_Count u16_ADCsample_Count `us  1 e 2 0 ]
+"91
+[v _u32_Mn u32_Mn `ul  1 e 4 0 ]
+[v _u32_Cn u32_Cn `ul  1 e 4 0 ]
+[v _u32_KnobPOT_ADCsample u32_KnobPOT_ADCsample `ul  1 e 4 0 ]
+"92
+[v _i32_CabinetSensor_ADCsample i32_CabinetSensor_ADCsample `l  1 e 4 0 ]
+"93
+[v _i16_CabinetSensor_Temp i16_CabinetSensor_Temp `s  1 e 2 0 ]
+"95
+[v _u8_Refrigeration_Mode u8_Refrigeration_Mode `uc  1 e 1 0 ]
+[v _u8_Refrigeration_State u8_Refrigeration_State `uc  1 e 1 0 ]
+[s S257 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"52 E:\W_WORKSPACE\W_PROGRAMMING\WBCXCV101_PROGRAM_101.X\mcc_generated_files/eusart1.c
+[u S262 . 1 `S257 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusart1RxLastError eusart1RxLastError `VES262  1 e 1 0 ]
+"58
+[v _EUSART1_FramingErrorHandler EUSART1_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"59
+[v _EUSART1_OverrunErrorHandler EUSART1_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"60
+[v _EUSART1_ErrorHandler EUSART1_ErrorHandler `*.37(v  1 e 2 0 ]
+"57 E:\W_WORKSPACE\W_PROGRAMMING\WBCXCV101_PROGRAM_101.X\mcc_generated_files/tmr1.c
+[v _timer1ReloadVal timer1ReloadVal `VEus  1 e 2 0 ]
+"58
+[v _TMR1_InterruptHandler TMR1_InterruptHandler `*.37(v  1 e 2 0 ]
+"198 E:\W_WORKSPACE\W_PROGRAMMING\WBCXCV101_PROGRAM_101.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"436
+} 0
+"153
+[v _v_get_slope_intercept v_get_slope_intercept `(v  1 e 1 0 ]
+{
+[v v_get_slope_intercept@u16_adc u16_adc `us  1 p 2 2 ]
+"187
+} 0
+"132
+[v _u16_get_adc_value u16_get_adc_value `(us  1 e 2 0 ]
+{
+[v u16_get_adc_value@u8_ADC_channel u8_ADC_channel `uc  1 a 1 wreg ]
+"133
+[v u16_get_adc_value@u16_ADC_sample u16_ADC_sample `us  1 a 2 3 ]
+"132
+[v u16_get_adc_value@u8_ADC_channel u8_ADC_channel `uc  1 a 1 wreg ]
+[v u16_get_adc_value@u8_ADC_channel u8_ADC_channel `uc  1 a 1 2 ]
+"143
+} 0
+"110 E:\W_WORKSPACE\W_PROGRAMMING\WBCXCV101_PROGRAM_101.X\mcc_generated_files/adc.c
+[v _ADC_GetConversion ADC_GetConversion `(us  1 e 2 0 ]
+{
+[v ADC_GetConversion@channel channel `E6747  1 a 1 wreg ]
+[v ADC_GetConversion@channel channel `E6747  1 a 1 wreg ]
+"113
+[v ADC_GetConversion@channel channel `E6747  1 a 1 5 ]
+"131
+} 0
+"15 C:\Program Files2\Microchip\xc8\v2.10\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"17
+[v ___lmul@product product `ul  1 a 4 2 ]
+"15
+[v ___lmul@multiplier multiplier `ul  1 p 4 0 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 4 ]
+"129
+} 0
+"50 E:\W_WORKSPACE\W_PROGRAMMING\WBCXCV101_PROGRAM_101.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"58
+} 0
+"64 E:\W_WORKSPACE\W_PROGRAMMING\WBCXCV101_PROGRAM_101.X\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+{
+"97
+} 0
+"178
+[v _TMR1_SetInterruptHandler TMR1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
+"180
+} 0
+"76 E:\W_WORKSPACE\W_PROGRAMMING\WBCXCV101_PROGRAM_101.X\mcc_generated_files/mcc.c
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"90
+} 0
+"55 E:\W_WORKSPACE\W_PROGRAMMING\WBCXCV101_PROGRAM_101.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"115
+} 0
+"60 E:\W_WORKSPACE\W_PROGRAMMING\WBCXCV101_PROGRAM_101.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"74
+} 0
+"66 E:\W_WORKSPACE\W_PROGRAMMING\WBCXCV101_PROGRAM_101.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+{
+"92
+} 0
+"170
+[v _EUSART1_SetOverrunErrorHandler EUSART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetOverrunErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 2 ]
+"172
+} 0
+"166
+[v _EUSART1_SetFramingErrorHandler EUSART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetFramingErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 2 ]
+"168
+} 0
+"174
+[v _EUSART1_SetErrorHandler EUSART1_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 2 ]
+"176
+} 0
+"65 E:\W_WORKSPACE\W_PROGRAMMING\WBCXCV101_PROGRAM_101.X\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+{
+"81
+} 0
+"52 E:\W_WORKSPACE\W_PROGRAMMING\WBCXCV101_PROGRAM_101.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"70
+} 0
+"164 E:\W_WORKSPACE\W_PROGRAMMING\WBCXCV101_PROGRAM_101.X\mcc_generated_files/tmr1.c
+[v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
+{
+"175
+} 0
+"182
+[v _TMR1_DefaultInterruptHandler TMR1_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"185
+} 0
+"104 E:\W_WORKSPACE\W_PROGRAMMING\WBCXCV101_PROGRAM_101.X\main.c
+[v _v_1s_service_routine v_1s_service_routine `(v  1 e 1 0 ]
+{
+"123
+} 0
+"127 E:\W_WORKSPACE\W_PROGRAMMING\WBCXCV101_PROGRAM_101.X\mcc_generated_files/tmr1.c
+[v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+{
+[v TMR1_WriteTimer@timerVal timerVal `us  1 p 2 0 ]
+"147
+} 0
