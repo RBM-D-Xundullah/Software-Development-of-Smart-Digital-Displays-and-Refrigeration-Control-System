@@ -1,1 +1,1 @@
-# Software-Development-of-Smart-Digital-Displays-and-Refrigeration-Control-System
+# Software development for control systems and digital displays
